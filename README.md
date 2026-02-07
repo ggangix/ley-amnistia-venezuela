@@ -36,6 +36,17 @@ shasum -a 256 file.pdf
 # Comparar con el hash esperado en el README del documento
 ```
 
+## Monitoreo de Cambios
+
+El script `verificar.sh` permite detectar si los documentos en el servidor han sido modificados.
+
+### Uso
+
+```bash
+./verificar.sh
+```
+
+
 ## Fuentes
 
 - Asamblea Nacional de Venezuela: https://www.asambleanacional.gob.ve
