@@ -1,18 +1,41 @@
-# Proyecto de Ley de Amnistía (AN)
+# Ley de Amnistía Venezuela - Archivo de Evidencias
 
-URL:
-https://www.asambleanacional.gob.ve/storage/documentos/documentos/proyecto-de-ley-de-amnistia-20260207004109.pdf
+Repositorio para la preservación y verificación de documentos oficiales relacionados con la Ley de Amnistía publicados por la Asamblea Nacional de Venezuela.
 
-## Verificación
+Inicialmente en estas urls:
 
-Descargar:
-curl -L -k -o file.pdf "https://www.asambleanacional.gob.ve/storage/documentos/documentos/proyecto-de-ley-de-amnistia-20260207004109.pdf"
+- Proyecto de Ley de Amnistía: https://www.asambleanacional.gob.ve/storage/documentos/documentos/proyecto-de-ley-de-amnistia-20260207004109.pdf
+- Planilla de Consulta de Ley de Amnistía: https://www.asambleanacional.gob.ve/storage/documentos/documentos/planilla-de-consulta-de-ley-de-amnistia-20260207004157.pdf
 
-SHA256:
+
+## Documentos Archivados
+
+| Documento | Fecha | SHA256 |
+|-----------|-------|--------|
+| [Proyecto de Ley de Amnistía](/ley-de-amnistia/) | 2026-02-07 | `aea6e5f2...` |
+| [Planilla de Consulta](/consulta-de-ley/) | 2026-02-07 | `484ec052...` |
+
+
+## Verificación de Autenticidad
+
+Cada documento incluye:
+
+- **SHA256**: Hash criptográfico para verificar integridad
+- **EXIF/Metadatos**: Información del PDF original
+- **URL fuente**: Enlace al documento en asambleanacional.gob.ve
+
+### Verificar un documento
+
+```bash
+# Descargar el documento
+curl -L -k -o file.pdf "<URL_DEL_DOCUMENTO>"
+
+# Calcular hash SHA256
 shasum -a 256 file.pdf
 
-SHA256 esperado:
-aea6e5f2c6805195d03d4ba388b09c2a78913982be56de0e9573406a650ace77
+# Comparar con el hash esperado en el README del documento
+```
 
-Metadata:
-exiftool -j file.pdf
+## Fuentes
+
+- Asamblea Nacional de Venezuela: https://www.asambleanacional.gob.ve
