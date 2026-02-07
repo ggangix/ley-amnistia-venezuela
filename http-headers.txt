@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Sat, 07 Feb 2026 14:50:23 GMT
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin
+Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+Last-Modified: Sat, 07 Feb 2026 00:41:09 GMT
+Accept-Ranges: bytes
+Content-Length: 167647
+Content-Security-Policy: default-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css                                                                        https://counter5.optistats.ovh ;                                    font-src 'self' 'unsafe-inline' data: *.googleapis.com fonts.gstatic.com ;                                   style-src 'self' 'unsafe-inline' data: https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css *.googleapis.com assets-cdn.github.com;                                    media-src 'self' *.youtube-nocookie.com ;                                    frame-src 'self' *.youtube-nocookie.com ;                                    frame-ancestors 'self' ;                                   form-action 'self' ;                                   img-src 'self'  https://cdnjs.cloudflare.com https://counter5.contadorvisitasgratis.com                                                    https://counter5.optistats.ovh ;
+Feature-Policy: camera 'none'; fullscreen 'none'; geolocation 'none'; microphone 'none'; payment 'none'; speaker 'none'; usb 'none'; vibrate 'none'; vr 'none';
+more_set_header: Server: Apache/2.4.24 (Win64) OpenSSL/1.1.1c PHP/7.3.8
+Content-Type: application/pdf
+
